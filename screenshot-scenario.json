@@ -1,0 +1,83 @@
+{
+  "_geometry": "tapFrac computed for 1080x2400. CanvasScaler is Expand @1242x2688, so the logical canvas is 1242x2760; every panel hangs under AspecterSA (AspectRatioFitter FitInParent 1242/2688), which letterboxes the panel space by exactly 36 logical units top and bottom. fracX = (621 + x_from_panel_centre) / 1242 ; fracY = 1 - (36 + y_from_panel_bottom) / 2760.",
+  "steps": [
+    {
+      "wait": 9.0,
+      "waitLoader": true,
+      "shot": "01_Lobby"
+    },
+    {
+      "tapFrac": [
+        0.7899,
+        0.4334
+      ],
+      "label": "NEXT ROOM",
+      "wait": 2.2,
+      "shot": "02_LobbyNextRoom"
+    },
+    {
+      "tapFrac": [
+        0.22,
+        0.8165
+      ],
+      "label": "DAILY BONUS",
+      "wait": 2.0,
+      "shot": "03_DailyBonus"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.7287
+      ],
+      "label": "CLAIM",
+      "wait": 2.6,
+      "shot": "04_BonusAwarded"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.7287
+      ],
+      "label": "SEE COLLECTION",
+      "wait": 2.0,
+      "shot": "05_SymbolAlbums"
+    },
+    {
+      "tapFrac": [
+        0.9066,
+        0.1602
+      ],
+      "label": "CLOSE SHEET",
+      "wait": 1.8,
+      "shot": "06_LobbyAfterClaim"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.6948
+      ],
+      "label": "PLAY",
+      "wait": 9.0,
+      "waitLoader": true,
+      "shot": "07_ReelsIdle"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.8409
+      ],
+      "label": "SPIN",
+      "wait": 4.0,
+      "shot": "08_ReelsLineWin"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.8409
+      ],
+      "label": "SPIN",
+      "wait": 5.5,
+      "shot": "09_SpotlightWinPop"
+    }
+  ]
+}
